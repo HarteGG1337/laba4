@@ -1,163 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Biographical Notes</title>
-    <style>
-        /*div{*/
-        /*    border:1px solid red;*/
-        /*}*/
-        .info>p{
-            margin: 0;
-            /*border: 1px solid black;*/
-            width: 250px;
-            display: inline-block;
-            padding: 10px;
-            text-indent: 20px;
-            /*letter-spacing: 2px;*/
-        }
-        .container{
-            border:1px solid skyblue;
-            width: 800px;
-            height: 1500px;
-            background-color: #eeeeff;
-            margin: auto;
-        }
-        .baseinfo{
-            height: 16%;
-        }
-        .info{
-            width: 600px;
-            float: left;
-        }
-        .photo{
-            /*border: 1px solid blue;*/
-            width: 150px;
-            height: 204px;
-            float: left;
-            padding: 10px;
-            margin: 10px 14px auto 6px;
-        }
-        .education{
-            height: 12%;
-        }
-        .experience{
-            height: 34%;
-        }
-        .skills{
-            height: 15%;
-        }
-        .me{
-            height: 15%;
-        }
-        .line{
-            width:760px;
-            height: 40px;
-            background-color:cadetblue;
-            color: white;
-            letter-spacing: 2px;
-            text-indent: 10px;
-            line-height: 40px;
-            font-size: 20px;
-            margin:10px 18px 0 18px;
-        }
-        .linetitle{
-            color: cadetblue;
-            font-size: 16px;
-            margin-left: 20px;
-        }
-        .linetitle span{
-            display: inline-block;
-            width:30%;
-            text-align: center;
-        }
-        .linetitle span:first-child
-        {
-           text-align: left;
-        }
-        .linetitle span:last-child{
-            text-align: right;
-        }
-        .text{
-            text-indent: 30px;
- 
-        }
-        .text:before{
-            content: "·";
-            margin-right: 8px;
-            font-size: 20px;
-            font-weight: bolder;
-        }
-    </style>
+  <title>Моё Резюме</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: #333333;
+      text-decoration: underline;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .section h2 {
+      color: #666666;
+    }
+    .section ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .section ul li {
+      margin-bottom: 5px;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <div class="baseinfo">
-            <div class="info">
-                <p style = "Размер шрифта: 30px; цвет: lightseagreen; вес font: bold">       </ p>
-                                 <p> Политический взгляд: XXXX </ P> <P> Охота на работу: XXXX </ P>
-                                 <p> День рождения: 199x.xx.xx </ P> <P> Мобильный телефон: 158 ******* 7 </ P>
-                                 <p> Национальность: HAN Национальность </ p> <p> Электронная почта: xxxxx@qqq.com </ p> <br>
-                                 <p> Высота: *** см </ p> <p> Вес: ** кг </ p>
- 
-            </div>
-            <div class="photo">
-                <img src="./image/attr.jpeg" style="width: 100%;height: 100%;">
-            </div>
- 
-        </div>
- 
-        <div class="education">
-                         <line class = "Line"> Образование / образование </ div>
-            <div>
-                                 <PLASS = "LINETITLE"> <SPAN> 20xx.09-20xx.06 </ span> <span> xx Университет </ span> <span> xx Профессионал / бакалавриат </ span> </ p>
-                                 <p class = "текст"> Курсы </ p>
-                                 <p class = "текст"> Курсы </ p>
-            </div>
-        </div>
- 
-        <div class="experience">
-                         <line class = "Line"> Опыт работы / Опыт </ div>
-            <div>
-                                 <plass = "Linetitle"> <span> 20xx.05-20xx.03 </ span> <span> xx Компания </ span> <span> Инженер xx </ span> </ p>
-                                 <p class = "текст"> Ответственный за </ p>
-                                 <p class = "текст"> Ответственный за </ p>
-                                 <p class = "текст"> Ответственный за </ p>
-                                 <p class = "текст"> Ответственный за </ p>
-                                 <p class = "текст"> Ответственный за </ p>
-            </div>
- 
-            <div>
-                                 <plass = "Linetitle"> <span> 20xx.04-   </ span> <span> xx Компания </ span> <span> xx положение </ span> </ p>
-                                 <p class = "текст"> Ответственный за </ p>
-                                 <p class = "текст"> Ответственный за </ p>
-                                 <p class = "текст"> Ответственный за </ p>
-                                 <p class = "текст"> Ответственный за </ p>
-            </div>
-        </div>
- 
-        <div class="skills">
-                         <line class = "line"> Личные навыки / личные навыки </ div>
- 
-            <div>
-                                 <p class = "текст"> навык </ p>
-                                 <p class = "текст"> навык </ p>
-                                 <p class = "текст"> навык </ p>
-                                 <p class = "текст"> навык </ p>
-            </div>
-        </div>
- 
-        <div class="me">
-                         <line class = "line"> Самооценка / Обо мне </ div>
- 
-            <div>
-                                 <p class = "текст"> i "</ p>
-                                 <p class = "текст"> i "</ p>
-                                 <p class = "текст"> i "</ p>
-                                 <p class = "текст"> i "</ p>
-            </div>
-        </div>
- 
-    </div>
+  <h1>Моё Резюме</h1>
+
+  <div class="section">
+    <h2>Личная информация</h2>
+    <ul>
+      <li><strong>Имя:</strong> Иван Иванов</li>
+      <li><strong>Дата рождения:</strong> 1 января 1990</li>
+      <li><strong>Адрес:</strong> Москва, Россия</li>
+      <li><strong>Телефон:</strong> +7 123 456 7890</li>
+      <li><strong>Email:</strong> ivanivanov@email.com</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Образование</h2>
+    <ul>
+      <li><strong>Бакалавр:</strong> Московский университет, Факультет компьютерных наук, 2010-2014</li>
+      <li><strong>Магистр:</strong> Стэнфордский университет, Компьютерные науки, 2014-2016</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Опыт работы</h2>
+    <ul>
+      <li>
+        <strong>Специалист по разработке:</strong>
+        <ul>
+          <li><strong>Компания:</strong> ООО "Разработка программного обеспечения"</li>
+          <li><strong>Период:</strong> 2016-2020</li>
+          <li><strong>Описание:</strong> Разработка веб-приложений с использованием HTML, CSS и JavaScript.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Ведущий программист:</strong>
+        <ul>
+          <li><strong>Компания:</strong> ООО "Инновационные технологии"</li>
+          <li><strong>Период:</strong> 2020-настоящее время</li>
+          <li><strong>Описание:</strong> Руководство командой разработчиков, архитектура и разработка программного обеспечения.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Навыки</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>SQL</li>
+    </ul>
+  </div>
+
 </body>
 </html>
